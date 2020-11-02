@@ -20,6 +20,7 @@ class Solution(object):
 			dfs(root.left)
 			res.append(root.val)
 			dfs(root.right)
+
 		dfs(root)
 		return res
 
