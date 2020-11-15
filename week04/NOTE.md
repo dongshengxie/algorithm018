@@ -74,7 +74,7 @@ def findMinIndex(nums):
     while low < high:
         if nums[low] < nums[high]:
               break
-        mid = (high - low) / 2 + low;
+        mid = (high - low) / 2 + low
         num = nums[mid]
         if num < nums[low]:
              high = mid
